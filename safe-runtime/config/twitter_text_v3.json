@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "maxWeightedTweetLength": 280,
+  "scale": 100,
+  "defaultWeight": 200,
+  "emojiParsingEnabled": true,
+  "transformedURLLength": 23,
+  "ranges": [
+    {"start": 0, "end": 4351, "weight": 100},
+    {"start": 8192, "end": 8205, "weight": 100},
+    {"start": 8208, "end": 8223, "weight": 100},
+    {"start": 8242, "end": 8247, "weight": 100}
+  ],
+  "_note": "Ranges and limits copied from twitter-text config/v3.json (master, fetched 2026-11-08). Runtime does not download this file. emojiParsingEnabled is recorded for honesty; this checker sums code points and does not collapse ZWJ sequences."
+}
