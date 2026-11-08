@@ -1,0 +1,7 @@
+{
+  "val_ids": [],
+  "learning_rate_max_edits": 4,
+  "min_real_trajectories_before_report": 8,
+  "edit_accept": "disabled",
+  "reason": "Outcome scores describe logged posts. They do not measure a candidate skill document on held-out tasks."
+}

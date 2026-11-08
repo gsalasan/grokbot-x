@@ -1,0 +1,14 @@
+{
+  "timezone": "Asia/Jakarta",
+  "measured_in_this_vm": false,
+  "this_bundle_installs_crons": false,
+  "existing_parent_routines": [
+    {"name": "scan", "schedule": "every 3 hours", "keep_when_score_at_least": "32/40"},
+    {"name": "morning", "schedule": "08:00"},
+    {"name": "evening", "schedule": "19:00"},
+    {"name": "weekly", "schedule": "Sunday 18:00"}
+  ],
+  "reported_helpful_windows_wib": ["07:00", "12:30"],
+  "window_role": "Heuristic times for a person choosing when to open a composer. They do not schedule an account action.",
+  "account_action_path": "Human opens an x.com intent link after exact approval of that specific text."
+}

@@ -1,0 +1,35 @@
+{
+  "handle": "gsalasan",
+  "niche": "Indonesian crypto and AI, with XRP as the main original-post subject",
+  "measured_in_this_vm": false,
+  "operator_reported_scale": {
+    "followers_approx": 22,
+    "views_typical": "20-50",
+    "source": "Study brief on 2026-11-08. This VM did not read the account, so these figures are unverified context."
+  },
+  "voice": {
+    "language": "Indonesian casual",
+    "pronoun": "saya",
+    "tech_english_allowed": true,
+    "banned": ["price forecasts", "hype", "guaranteed growth", "fabricated stats"],
+    "parent_voice_file_on_parent_box_only": "/workspace/content-operator/voice.md",
+    "parent_findings_file_on_parent_box_only": "/workspace/content-operator/findings.md",
+    "parent_drafts_glob_on_parent_box_only": "/workspace/content-operator/drafts*.json",
+    "present_in_this_vm": false
+  },
+  "draft_shape": {
+    "main_max_weighted_chars": 280,
+    "weighting": "twitter-text v3 code points, http(s) URLs counted as 23",
+    "main_ends_with_short_question": true,
+    "short_question_max_words": 12,
+    "main_and_sources_are_separate_posts": true,
+    "weekly_originals_xrp_minimum_share": 0.67
+  },
+  "approval": {
+    "account_actions": "exact human approval every time",
+    "delivery": "manual X intent link",
+    "typefully": "optional and unused by this runtime",
+    "credentials_in_this_bundle": false
+  },
+  "growth_claims": false
+}
